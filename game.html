@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vice City</title>
+</head>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Orbitron', sans-serif;
+}
+
+body{
+    background:#0f0c29;
+    color: #ffffff;
+}
+
+/* Navbar */
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    position:absolute;
+    width:100%;
+    z-index:2;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:900;
+    color:#ff0080;
+    text-shadow:0 0 15px #ff0080;
+}
+
+nav a{
+    margin-left:25px;
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#000302;
+    text-shadow:0 0 10px #000000;
+}
+
+/* Hero */
+.hero{
+
+    height:100vh;
+    background: url('gta.jpg') no-repeat center center;
+    background-size: cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+
+
+.overlay{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to right, rgba(0,0,0,0.7), rgba(255,0,128,0.4));
+}
+
+.hero-content{
+    position:relative;
+    text-align:center;
+    z-index:1;
+}
+
+.hero-content h1{
+    font-size:60px;
+    color:#ff0080;
+    text-shadow:0 0 20px #ff0080;
+}
+
+.btn-primary{
+    margin-top:20px;
+    padding:12px 30px;
+    background:#2afadf;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-primary:hover{
+    box-shadow:0 0 20px #000e0c;
+    transform:scale(1.1);
+}
+
+/* About Section */
+.about{
+    padding:80px 60px;
+    text-align:center;
+}
+
+.about h2{
+    color:#ff0080;
+    margin-bottom:20px;
+}
+
+footer{
+    padding:20px;
+    text-align:center;
+    opacity:0.7;
+}
+  </style>
+<body>
+<header>
+    <div class="logo">VICE CITY</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Story</a>
+        <a href="#">Gallery</a>
+        <a href="#">Download</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Welcome to Vice City</h1>
+        <p>The neon streets. The power. The empire.</p>
+        <button class="btn-primary">Play Now</button>
+    </div>
+</section>
+
+<section class="about">
+    <h2>About the Game</h2>
+    <p>
+        Experience the 80s crime world filled with neon lights,
+        palm trees, and power struggles. Build your empire
+        and rule the city.
+    </p>
+</section>
+
+<footer>
+    <p>Inspired by Vice City Aesthetic</p>
+</footer>
+
+</body>
+</html>
