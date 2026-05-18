@@ -1,0 +1,17 @@
+.item{
+background-color: rgb(90, 228, 235);
+text-align: center;
+padding: 40px;
+margin: 250px;
+border-radius: 10px;
+}
+.button{
+background-color: rgb(233, 12, 12);
+color: white;
+height: 45px;
+width: 100px;
+border-radius: 8px;
+}
+.button:hover{
+background-color: rgb(23, 180, 70);
+}

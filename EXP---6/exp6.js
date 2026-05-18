@@ -14,7 +14,7 @@ changeHeadingbtn.onclick = function () {
     }
 };
 changebgbtn.onclick = function () {
-    document.body.style.backgroundColor = "green";
+    document.body.style.backgroundColor = "red";
 };
 increasefontbtn.onclick = function () {
     para.style.fontSize = "25px";

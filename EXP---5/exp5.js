@@ -5,7 +5,7 @@ let id = document.getElementById("id").value;
 let salary = parseFloat(document.getElementById("salary").value);
 let department = document.getElementById("department").value;
 if (name === "" || id === "" || isNaN(salary) || department === "") {
-alert("Please fill all fields properly");
+alert("EMPLOYEE ADDED SUCCESSFULLY");
 return;
 }
 let employee = {
