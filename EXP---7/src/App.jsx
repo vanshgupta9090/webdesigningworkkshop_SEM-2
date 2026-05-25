@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-      <Greet name = "Rahul Sharma" course = "Course: Computer Science" marks = "Marks: 85"/>
-      <Greet name = "Anita Verma" course = "Course: Information Technology" marks = "Marks: 92"/>
-      <Greet name = "Rohan Gupta" course = "Course: Electronics" marks = "Marks: 78"/>
-      <p>Made by Vansh Gupta.</p>
+      <Greet name = "Vansh Gupta" course = "Course: Computer Science" marks = "Marks: 85"/>
+      <Greet name = "Yash Gupta" course = "Course: Information Technology" marks = "Marks: 92"/>
+      <Greet name = "Ramit Gupta" course = "Course: Electronics" marks = "Marks: 78"/>
+      <p>Made by Vansh Gupta</p>
       <p>CSE-26</p>
     </>
   )
