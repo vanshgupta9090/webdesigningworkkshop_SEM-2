@@ -22,7 +22,7 @@ function Counter() {
       <button onClick={increment}>Increment(+)</button>
       <button onClick={decrement}>Decrement(-)</button>
       <button onClick={reset}>Reset To 0</button>
-      <p>Made by Vansh Gupta.</p>
+      <p>Made by Vansh Gupta</p>
       <p>CSE-26</p>
     </div>
   );
